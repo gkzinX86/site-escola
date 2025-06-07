@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>""></Marketing> Coca cola sabor sem igul</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f2f2f2;
+      text-align: center;
+    }
+
+    header {
+      background-color: #c8102e;
+      color: white;
+      padding: 20px 0;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    .slideshow-container {
+      position: relative;
+      max-width: 800px;
+      margin: 30px auto;
+    }
+
+    .slide {
+      display: none;
+    }
+
+    .slide img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 12px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      background-color: rgba(0,0,0,0.5);
+    }
+
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+
+    .info {
+      max-width: 800px;
+      margin: 40px auto;
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: left;
+    }
+
+    .info h2 {
+      text-align: center;
+    }
+
+    .fade {
+      animation: fade 1.5s ease-in-out;
+    }
+
+    @keyframes fade {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Marketing Coca-Cola</h1>
+    <p>Descubra a história e o impacto dessa marca icônica!</p>
+  </header>
+
+  <div class="slideshow-container">
+    <div class="slide fade">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Coca-Cola_1940s_advertisement.jpg" alt="Propaganda histórica da Coca-Cola dos anos 1940" onerror="console.log('Erro ao carregar imagem 1');">
+    </div>
+    <div class="slide fade">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Coca-Cola_bottle_1916.jpg" alt="Garrafa icônica da Coca-Cola de 1916" onerror="console.log('Erro ao carregar imagem 2');">
+    </div>
+    <div class="slide fade">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/8b/Coca-Cola_Christmas_Ad.jpg" alt="Campanha de Natal da Coca-Cola" onerror="console.log('Erro ao carregar imagem 3');">
+    </div>
+    <div class="slide fade">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Coca-Cola_Zero_Sugar.jpg" alt="Coca-Cola Zero Sugar moderna" onerror="console.log('Erro ao carregar imagem 4');">
+    </div>
+    <div class="slide fade">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Coca-Cola_Billboard_1930s.jpg" alt="Outdoor da Coca-Cola dos anos 1930" onerror="console.log('Erro ao carregar imagem 5');">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+  </div>
+
+  <div class="info">
+    <h2>Sobre a Coca-Cola</h2>
+    <p>A Coca-Cola, criada em 1886 pelo farmacêutico John Stith Pemberton em Atlanta, Geórgia, é uma das marcas mais reconhecidas e valiosas do mundo. Inicialmente vendida como um tônico medicinal em uma farmácia local, a bebida ganhou popularidade rapidamente devido ao seu sabor único e à estratégia visionária de marketing de seu criador e, posteriormente, de Asa Griggs Candler, que adquiriu os direitos da marca e a transformou em um fenômeno global. A fórmula original, embora ajustada ao longo do tempo, permanece um segredo comercial cuidadosamente guardado, alimentando o fascínio pela marca.</p>
+    <p>O sucesso da Coca-Cola está intrinsecamente ligado às suas campanhas publicitárias inovadoras. Desde os primeiros anúncios impressos no final do século XIX até as campanhas digitais modernas, a marca soube se conectar emocionalmente com seu público. Slogans como “Beba Coca-Cola”, “O Lado Coca-Cola da Vida” e “Abra a Felicidade” capturam a essência de momentos de alegria, união e celebração, valores que a empresa promove consistentemente. A introdução do Papai Noel moderno, com sua imagem barbada e vestimenta vermelha e branca, é um exemplo icônico do impacto cultural da Coca-Cola, criado em campanhas publicitárias dos anos 1930 que moldaram a percepção global do Natal.</p>
+    <p>A garrafa contour, desenhada em 1915, é outro marco do design e do marketing. Sua forma distinta, inspirada na semente de cacau, foi criada para ser reconhecida mesmo no escuro ou quebrada, garantindo que a Coca-Cola se destacasse em um mercado competitivo. Esse design permanece um símbolo atemporal, utilizado em campanhas nostálgicas e edições especiais até hoje. Além disso, a Coca-Cola foi pioneira em estratégias de marketing global, adaptando suas campanhas a diferentes culturas enquanto mantém uma identidade consistente, o que a tornou uma marca verdadeiramente universal.</p>
+    <p>Nos últimos anos, a Coca-Cola tem investido fortemente em sustentabilidade e inovação. Iniciativas como a campanha “World Without Waste” buscam tornar todas as embalagens da empresa 100% recicláveis até 2030, com metas ambiciosas para coletar e reciclar o equivalente a cada garrafa ou lata vendida. A empresa também diversificou seu portfólio, introduzindo produtos como Coca-Cola Zero Sugar, Coca-Cola Energy e bebidas à base de chá e café, respondendo às demandas por opções mais saudáveis e variadas. Essas estratégias mostram o compromisso da marca em se adaptar às mudanças no comportamento do consumidor sem perder sua essência.</p>
+    <p>Curiosidades sobre a Coca-Cola também enriquecem sua história. Por exemplo, a bebida foi a primeira a ser consumida no espaço, em 1985, a bordo do ônibus espacial Challenger, em um experimento que testou uma lata especial em gravidade zero. Além disso, a Coca-Cola já apareceu em inúmeros filmes, séries e obras de arte, consolidando seu status como ícone da cultura pop. Seja em propagandas clássicas ou em parcerias com eventos globais como a Copa do Mundo e as Olimpíadas, a Coca-Cola continua a inspirar e unir pessoas ao redor do mundo, mantendo sua posição como líder no setor de bebidas.</p>
+  </div>
+
+  <script>
+    let slideIndex = 1;
+    let autoSlide = setInterval(() => plusSlides(1), 5000); // Muda a cada 5 segundos
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      clearInterval(autoSlide); // Para o intervalo automático
+      showSlides(slideIndex += n);
+      autoSlide = setInterval(() => plusSlides(1), 5000); // Reinicia
+    }
+
+    function showSlides(n) {
+      let i;
+      const slides = document.getElementsByClassName("slide");
+      console.log("Total de slides:", slides.length, "Slide atual:", n); // Para depuração
+      if (n > slides.length) { slideIndex = 1; }
+      if (n < 1) { slideIndex = slides.length; }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slides[slideIndex - 1].style.display = "block";
+    }
+  </script>
+</body>
+</html>
